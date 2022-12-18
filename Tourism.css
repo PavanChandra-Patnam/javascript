@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(223, 212, 231);
+
+}
+h1{
+    text-align:center;
+}
+img{
+    display:block;
+    margin:auto;
+    height:400px;
+    width:700px;
+}
+p{
+    text-align:center;
+}
+
+/* id selector*/
+#p1{
+    color: brown;
+}
+#p2{
+    color:blueviolet
+}
+
+/* class seloctor*/
+.change{ 
+    text-decoration: underline;
+}
+
+/* Grouping Selector*/
+h1,p{
+    text-transform: capitalize; /*uppercase, lower case*/
+}
+.dalign{
+    float: left;
+    margin:100px;
+}
+#p3{
+    clear: both;
+    background-color: rgb(43, 226, 180);
+}
+span{
+    color: red;
+    background: yellow;
+}
+
+#p4{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: large;
+}
+/* selector{declaration}
+            property: value */

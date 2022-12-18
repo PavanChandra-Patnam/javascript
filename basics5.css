@@ -1,0 +1,33 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    text-align: center;
+    color: brown;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+img{
+    
+    height: 300px;
+    width: 300px;
+}
+table,td{
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; */
+}
+#change{
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+.c1:hover{
+    color: aqua;
+    text-decoration: underline;
+    cursor: pointer;
+}

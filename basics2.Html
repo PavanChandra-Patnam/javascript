@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lists in html</title>
+</head>
+<body>
+    <!-- ol-ordered list -->
+    <!-- type=A,a & start is always a number -->
+    <ol type="A" start="4"> 
+        <li>E1</li>
+        <li>E2</li>
+        <li>E3</li>
+    </ol>
+    <!-- gives numbered list -->
+    <ol start="11"> 
+        <li>E1</li>
+        <li>E2</li>
+        <li>E3</li>
+    </ol>
+
+    <!-- type=i,I for roman numbers -->
+    <ol type="i" start="4"> 
+        <li>E1</li>
+        <li>E2</li>
+        <li>E3</li>
+    </ol>
+    <!-- ul-unordered list, type=circle,sqaure,disc etc... -->
+    <ul type="circle">
+        <li>S1</li>
+        <li>S2</li>
+        <li>S3</li>
+    </ul>
+    <!-- to show without any symbols -->
+    <ul type="none">
+        <li>S1</li>
+        <li>S2</li>
+        <li>S3</li>
+    </ul>
+
+    <!-- to add mail id -->
+
+    <a href="mailto:pavanchandrapatnam@gmail.com">mail me</a>
+    
+    <hr/>
+
+    <br/>
+    
+    <form >
+        <table>
+            <caption><marquee>Please fill your details</marquee></caption>
+
+            <!-- input type maybe numbers,text,radio,button,checkbox etc -->
+            <tr>
+                <td>
+                    <label for="n"> First name:-</label> <input type="test" id="n"/>
+                </td>
+            </tr>
+            <td>
+                <label for="n"> Last name:-</label> <input type="test" id="n"/>
+                
+            </td>
+            <tr>
+            <td>
+                <label for="mob"> Mobile no:- </label> <input type="number" id="mob"/>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email"> Email id:-</label><input type="email" id="email"/>
+                </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="d">Dob:-</label><input type="date" id="d"/>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="gender">Select the gender:-</label><input type="radio" name="gender"/>Male
+                <label for="gender"></label><input type="radio" name="gender"/>Female
+            </td>
+           </tr>
+
+        <tr>
+            <td>
+            <label>Select items</label>
+            <input type="checkbox"/> Facility 1
+            <input type="checkbox"/> Facility 2
+            </td>
+            </tr>
+
+        <tr>
+            <td>
+                <label for="address">Address:-</label>
+                <textarea style="resize:none;" rows="" columns="" ></textarea>
+            </td>
+        </tr>
+
+        <tr>
+                <td>
+                    <label for="password">Password:-</label><input type="password" id="password" 
+                    placeholder="Enter your password"/>               
+                 </td>
+            </tr>
+            <tr>
+                <td> <input type="Submit" value="Submit"/> <input type="Reset" Value="Reset"/> </td>
+            </tr>
+            </table>
+        </table>
+      <!-- <label for="n"> first name:-</label> <input type="test" id="n"/> <br/>
+      <label for="n"> last name:-</label> <input type="test" id="n"/> -->
+
+    </form>
+    <div> Please <span style="color:brown;"> check </span> the below form. </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d490641.2907872864!2d77.78507224999998!3d16.110311499999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb58dc779951bf1%3A0x3dfb49248cdbb37a!2z4LCG4LCw4LGB4LC34LGNIOCwruCxi-Cwn-CwvuCwsOCxjeCwuOCxjSDgsJ_gsYIg4LC14LGA4LCy4LCw4LGNIOCwuOCxh-CwsuCxjeCwuOCxjSDgsIXgsILgsKHgsY0g4LC44LCw4LGN4LC14LGA4LC44LGNIGFhcnVzaCBNb3RvcnMgdHdvIHdoZWVsZXIgc2FsZXMgYW5kIHNlcnZpY2Vz!5e0!3m2!1sen!2sin!4v1668955691961!5m2!1sen!2sin" 
+    width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</body>
+</html>
